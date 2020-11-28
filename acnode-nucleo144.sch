@@ -658,10 +658,6 @@ Wire Wire Line
 	6050 6550 5700 6550
 Wire Wire Line
 	6050 6650 5700 6650
-Text Label 2200 2850 0    49   ~ 0
-~Reset
-Wire Wire Line
-	2100 2850 2400 2850
 Text GLabel 9700 3150 0    49   Input ~ 0
 BigButton
 Wire Wire Line
@@ -722,4 +718,10 @@ Wire Wire Line
 	6550 4600 6150 4600
 Wire Wire Line
 	6150 4750 6550 4750
+Text GLabel 2800 2850 2    49   Input ~ 0
+~Reset
+Wire Wire Line
+	2100 2850 2800 2850
+Text Label 2400 2850 2    49   ~ 0
+~Reset
 $EndSCHEMATC
