@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Nucleo-144)(type Legacy)(uri ${KIPRJMOD}/Nucleo-144.lib)(options "")(descr ""))
+  (lib (name ExtraParts)(type Legacy)(uri ${KIPRJMOD}/ExtraParts.lib)(options "")(descr ""))
+)

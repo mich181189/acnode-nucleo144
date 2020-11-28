@@ -1,0 +1,13 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DMP6023LE
+D 60V P-CHANNEL ENHANCEMENT MODE MOSFET SOT223
+F https://docs.rs-online.com/4b19/0900766b814b91c3.pdf
+$ENDCMP
+#
+$CMP VOM617A
+D DC Input Phototransistor Output Optocoupler, Surface Mount, 4-Pin SOP
+F https://www.vishay.com/docs/83446/vom617a.pdf
+$ENDCMP
+#
+#End Doc Library

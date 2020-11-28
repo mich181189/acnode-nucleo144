@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name Nucleo-144)(type KiCad)(uri ${KIPRJMOD}/Nucleo-144.pretty)(options "")(descr ""))
+)
