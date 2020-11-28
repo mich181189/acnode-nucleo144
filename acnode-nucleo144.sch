@@ -14,10 +14,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Nucleo-144:Nucleo-144 U?
+L Nucleo-144:Nucleo-144 U2
 U 1 1 5FC0D18E
 P 1400 2600
-F 0 "U?" H 1338 3665 50  0000 C CNN
+F 0 "U2" H 1338 3665 50  0000 C CNN
 F 1 "Nucleo-144" H 1338 3574 50  0000 C CNN
 F 2 "Nucleo-144:Nucleo-144" H 1400 3550 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf" H 1400 3550 50  0001 C CNN
@@ -25,10 +25,10 @@ F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-board
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Nucleo-144:Nucleo-144 U?
+L Nucleo-144:Nucleo-144 U2
 U 2 1 5FC10CDD
 P 1600 4600
-F 0 "U?" H 1567 5615 50  0000 C CNN
+F 0 "U2" H 1567 5615 50  0000 C CNN
 F 1 "Nucleo-144" H 1567 5524 50  0000 C CNN
 F 2 "Nucleo-144:Nucleo-144" H 1600 5550 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf" H 1600 5550 50  0001 C CNN
@@ -36,10 +36,10 @@ F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-board
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Nucleo-144:Nucleo-144 U?
+L Nucleo-144:Nucleo-144 U2
 U 3 1 5FC17DB9
 P 6500 6200
-F 0 "U?" H 6400 7250 50  0000 L CNN
+F 0 "U2" H 6400 7250 50  0000 L CNN
 F 1 "Nucleo-144" H 6300 7150 50  0000 L CNN
 F 2 "Nucleo-144:Nucleo-144" H 6500 7150 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf" H 6500 7150 50  0001 C CNN
@@ -47,10 +47,10 @@ F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-board
 	1    0    0    -1  
 $EndComp
 $Comp
-L Nucleo-144:Nucleo-144 U?
+L Nucleo-144:Nucleo-144 U2
 U 4 1 5FC198DE
 P 10300 2150
-F 0 "U?" H 10200 3200 50  0000 L CNN
+F 0 "U2" H 10200 3200 50  0000 L CNN
 F 1 "Nucleo-144" H 10100 3100 50  0000 L CNN
 F 2 "Nucleo-144:Nucleo-144" H 10300 3100 50  0001 C CNN
 F 3 "https://www.st.com/resource/en/user_manual/dm00244518-stm32-nucleo144-boards-mb1137-stmicroelectronics.pdf" H 10300 3100 50  0001 C CNN
@@ -172,8 +172,6 @@ Text Notes 550  800  0    157  ~ 0
 Nucleo-144 Left Side
 Text Notes 8400 800  0    157  ~ 0
 Nucleo-144 Right Side
-Wire Notes Line
-	8250 450  8250 4950
 Text Label 9200 4050 0    49   ~ 0
 Reader_SerialRx
 Text Label 9200 3950 0    49   ~ 0
@@ -183,12 +181,12 @@ Wire Wire Line
 Wire Wire Line
 	9850 4050 9200 4050
 $Comp
-L Connector:8P8C J?
+L Connector:8P8C J2
 U 1 1 5FCF8C59
 P 4350 7300
-F 0 "J?" V 4453 6870 50  0000 R CNN
+F 0 "J2" V 4453 6870 50  0000 R CNN
 F 1 "8P8C" V 4362 6870 50  0000 R CNN
-F 2 "" V 4350 7325 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 4350 7325 50  0001 C CNN
 F 3 "~" V 4350 7325 50  0001 C CNN
 	1    4350 7300
 	0    -1   -1   0   
@@ -246,10 +244,10 @@ LED_Blue_Cathode
 Text Notes 3400 6050 0    79   ~ 0
 Legacy 8P8C Connector
 $Comp
-L Memory_Flash:W25Q32JVSS U?
+L Memory_Flash:W25Q32JVSS U3
 U 1 1 5FD27D8E
 P 4400 5050
-F 0 "U?" H 4150 5400 50  0000 C CNN
+F 0 "U3" H 4150 5400 50  0000 C CNN
 F 1 "W25Q32JVSS" H 4050 4650 50  0000 C CNN
 F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 4400 5050 50  0001 C CNN
 F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 4400 5050 50  0001 C CNN
@@ -283,12 +281,12 @@ Wire Wire Line
 Wire Wire Line
 	4400 5600 4400 5450
 $Comp
-L Device:C C?
+L Device:C C2
 U 1 1 5FD31B13
 P 4650 4450
-F 0 "C?" V 4500 4450 50  0000 C CNN
+F 0 "C2" V 4500 4450 50  0000 C CNN
 F 1 "100nF" V 4800 4450 50  0000 C CNN
-F 2 "" H 4688 4300 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 4300 50  0001 C CNN
 F 3 "~" H 4650 4450 50  0001 C CNN
 	1    4650 4450
 	0    1    1    0   
@@ -346,16 +344,14 @@ Connection ~ 5400 5150
 Wire Notes Line
 	5500 3900 3250 3900
 Wire Notes Line
-	8250 4950 5500 4950
-Wire Notes Line
 	3250 5900 5500 5900
 $Comp
-L Device:R R?
+L Device:R R2
 U 1 1 5FDA2BE7
 P 3850 4700
-F 0 "R?" H 3700 4750 50  0000 L CNN
+F 0 "R2" H 3700 4750 50  0000 L CNN
 F 1 "10k" H 3650 4650 50  0000 L CNN
-F 2 "" V 3780 4700 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 3780 4700 50  0001 C CNN
 F 3 "~" H 3850 4700 50  0001 C CNN
 	1    3850 4700
 	1    0    0    -1  
@@ -372,10 +368,10 @@ Wire Wire Line
 Text Notes 3350 4150 0    49   ~ 0
 Most SOIC-8 SPI Flash should fit
 $Comp
-L ExtraParts:ISL8489EIBZ U?
+L ExtraParts:ISL8489EIBZ U1
 U 1 1 5FC1CEB5
 P 4700 2000
-F 0 "U?" H 4900 2650 50  0000 C CNN
+F 0 "U1" H 4900 2650 50  0000 C CNN
 F 1 "ISL3176EIBZ" H 4450 1350 50  0000 C CNN
 F 2 "Package_SO:SOIC-14_3.9x8.7mm_P1.27mm" H 4700 2000 50  0001 C CIN
 F 3 "" H 4700 2000 50  0001 C CNN
@@ -450,12 +446,12 @@ Wire Wire Line
 Wire Wire Line
 	4600 1300 4600 1200
 $Comp
-L Device:C C?
+L Device:C C1
 U 1 1 5FC3626B
 P 4300 1200
-F 0 "C?" V 4048 1200 50  0000 C CNN
+F 0 "C1" V 4048 1200 50  0000 C CNN
 F 1 "100nF" V 4139 1200 50  0000 C CNN
-F 2 "" H 4338 1050 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4338 1050 50  0001 C CNN
 F 3 "~" H 4300 1200 50  0001 C CNN
 	1    4300 1200
 	0    1    1    0   
@@ -479,12 +475,12 @@ $EndComp
 Wire Wire Line
 	4150 1200 3900 1200
 $Comp
-L Connector:8P8C J?
+L Connector:8P8C J1
 U 1 1 5FC3EF4E
 P 7050 1250
-F 0 "J?" H 6720 1254 50  0000 R CNN
+F 0 "J1" H 6720 1254 50  0000 R CNN
 F 1 "8P8C" H 6720 1345 50  0000 R CNN
-F 2 "" V 7050 1275 50  0001 C CNN
+F 2 "Connector_RJ:RJ45_Amphenol_54602-x08_Horizontal" V 7050 1275 50  0001 C CNN
 F 3 "~" V 7050 1275 50  0001 C CNN
 	1    7050 1250
 	-1   0    0    1   
@@ -518,12 +514,12 @@ Wire Wire Line
 Wire Wire Line
 	5200 1800 5700 1800
 $Comp
-L Device:R R?
+L Device:R R1
 U 1 1 5FC6A05D
 P 5950 1300
-F 0 "R?" H 6020 1346 50  0000 L CNN
+F 0 "R1" H 6020 1346 50  0000 L CNN
 F 1 "100R" H 6020 1255 50  0000 L CNN
-F 2 "" V 5880 1300 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5880 1300 50  0001 C CNN
 F 3 "~" H 5950 1300 50  0001 C CNN
 	1    5950 1300
 	1    0    0    -1  
@@ -598,16 +594,20 @@ Wire Notes Line
 Wire Notes Line
 	5850 2450 5850 1800
 Wire Notes Line
-	5850 1800 8250 1800
-Wire Notes Line
 	5500 2450 5500 7800
 Text Notes 5900 2100 0    98   ~ 0
 Other Sheets
 $Sheet
-S 6100 2650 1600 250 
+S 6400 2550 1600 300 
 U 5FDAF572
 F0 "LED_Switching" 79
 F1 "LED_Switching.sch" 79
+F2 "LED_R_Trigger" I R 8000 2600 49 
+F3 "LED_G_Trigger" I R 8000 2700 49 
+F4 "LED_B_Trigger" I R 8000 2800 49 
+F5 "LED_Red_Cathode" I L 6400 2600 49 
+F6 "LED_Green_Cathode" I L 6400 2700 49 
+F7 "LED_Blue_Cathode" I L 6400 2800 49 
 $EndSheet
 Text Label 9250 3450 0    49   ~ 0
 LED_R_Trigger
@@ -622,15 +622,13 @@ Wire Wire Line
 Wire Wire Line
 	9850 3750 9250 3750
 $Sheet
-S 6100 3200 1550 350 
+S 6400 3150 1550 350 
 U 5FFE9ADC
 F0 "Power" 79
 F1 "Power.sch" 79
+F2 "ToolEnable" I R 7950 3250 49 
+F3 "~ToolOn" I R 7950 3400 49 
 $EndSheet
-Wire Wire Line
-	9850 3350 9250 3350
-Text Label 9250 3350 0    49   ~ 0
-ToolEnable
 $Comp
 L power:+12V #PWR0118
 U 1 1 6001FB64
@@ -647,10 +645,10 @@ Wire Wire Line
 Wire Wire Line
 	2900 3350 2900 3150
 $Sheet
-S 6100 3900 1500 350 
+S 6400 3950 1500 350 
 U 600A520B
-F0 "UserIO" 59
-F1 "UserIO.sch" 59
+F0 "UserIO" 79
+F1 "UserIO.sch" 79
 $EndSheet
 Text Label 5700 6550 0    49   ~ 0
 I2C_SCL
@@ -664,8 +662,64 @@ Text Label 2200 2850 0    49   ~ 0
 ~Reset
 Wire Wire Line
 	2100 2850 2400 2850
-Text Label 9600 3150 2    49   ~ 0
+Text GLabel 9700 3150 0    49   Input ~ 0
 BigButton
 Wire Wire Line
-	9850 3150 9250 3150
+	9850 3150 9700 3150
+Text Label 9250 3350 0    49   ~ 0
+ToolEnable
+Wire Wire Line
+	9850 3350 9250 3350
+Text Label 8050 2600 0    49   ~ 0
+LED_R_Trigger
+Text Label 8050 2700 0    49   ~ 0
+LED_G_Trigger
+Text Label 8050 2800 0    49   ~ 0
+LED_B_Trigger
+Wire Wire Line
+	8000 2600 8550 2600
+Wire Wire Line
+	8000 2700 8550 2700
+Wire Wire Line
+	8000 2800 8550 2800
+Text Label 5600 2600 0    49   ~ 0
+LED_Red_Cathode
+Text Label 5600 2700 0    49   ~ 0
+LED_Green_Cathode
+Text Label 5600 2800 0    49   ~ 0
+LED_Blue_Cathode
+Wire Notes Line
+	8300 500  8300 1800
+Wire Notes Line
+	8700 1800 8700 4950
+Wire Notes Line
+	5500 4950 8700 4950
+Wire Notes Line
+	5850 1800 8700 1800
+Wire Wire Line
+	6400 2600 5600 2600
+Wire Wire Line
+	5600 2700 6400 2700
+Wire Wire Line
+	6400 2800 5600 2800
+Text Label 8400 3250 2    49   ~ 0
+ToolEnable
+Text Label 8400 3400 2    49   ~ 0
+~ToolOn
+Wire Wire Line
+	7950 3250 8400 3250
+Wire Wire Line
+	8400 3400 7950 3400
+Text GLabel 6150 4600 0    49   Input ~ 0
+i2c_SCL
+Text GLabel 6150 4750 0    49   Input ~ 0
+i2c_SDA
+Text Label 6550 4600 2    49   ~ 0
+I2C_SCL
+Text Label 6550 4750 2    49   ~ 0
+I2C_SDA
+Wire Wire Line
+	6550 4600 6150 4600
+Wire Wire Line
+	6150 4750 6550 4750
 $EndSCHEMATC

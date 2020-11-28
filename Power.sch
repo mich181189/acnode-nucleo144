@@ -14,12 +14,12 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J3
 U 1 1 5FFEA204
 P 850 1300
-F 0 "J?" H 768 975 50  0000 C CNN
+F 0 "J3" H 768 975 50  0000 C CNN
 F 1 "Conn_01x02" H 768 1066 50  0000 C CNN
-F 2 "" H 850 1300 50  0001 C CNN
+F 2 "ExtraParts:Connector-5.08mm" H 850 1300 50  0001 C CNN
 F 3 "~" H 850 1300 50  0001 C CNN
 	1    850  1300
 	-1   0    0    1   
@@ -49,10 +49,10 @@ F 3 "" H 2600 1000 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L ExtraParts:DMP6023LE Q?
+L ExtraParts:DMP6023LE Q7
 U 1 1 5FFEE310
 P 1800 1250
-F 0 "Q?" V 2090 1250 49  0000 C CNN
+F 0 "Q7" V 2090 1250 49  0000 C CNN
 F 1 "DMP6023LE" V 2000 1250 49  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-223" H 1950 1400 49  0001 L CNN
 F 3 "https://docs.rs-online.com/4b19/0900766b814b91c3.pdf" H 1800 1250 49  0001 C CNN
@@ -79,10 +79,10 @@ Text Notes 700  700  0    98   ~ 0
 Wire Notes Line
 	500  2250 3550 2250
 $Comp
-L Relay:SANYOU_SRD_Form_C K?
+L Relay:SANYOU_SRD_Form_C K1
 U 1 1 5FFFB5FD
 P 5900 1800
-F 0 "K?" H 6330 1846 50  0000 L CNN
+F 0 "K1" H 6330 1846 50  0000 L CNN
 F 1 "SANYOU_SRD_Form_C" H 6330 1755 50  0000 L CNN
 F 2 "Relay_THT:Relay_SPDT_SANYOU_SRD_Series_Form_C" H 6350 1750 50  0001 L CNN
 F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 5900 1800 50  0001 C CNN
@@ -90,10 +90,10 @@ F 3 "http://www.sanyourelay.ca/public/products/pdf/SRD.pdf" H 5900 1800 50  0001
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_FET:2N7002 Q?
+L Transistor_FET:2N7002 Q8
 U 1 1 60000340
 P 5600 2600
-F 0 "Q?" H 5804 2646 50  0000 L CNN
+F 0 "Q8" H 5804 2646 50  0000 L CNN
 F 1 "2N7002" H 5804 2555 50  0000 L CNN
 F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 2525 50  0001 L CIN
 F 3 "https://www.fairchildsemi.com/datasheets/2N/2N7002.pdf" H 5600 2600 50  0001 L CNN
@@ -129,12 +129,12 @@ $EndComp
 Wire Wire Line
 	5700 1500 5700 1350
 $Comp
-L Device:R R?
+L Device:R R9
 U 1 1 60004E1E
 P 5200 2750
-F 0 "R?" H 5270 2796 50  0000 L CNN
+F 0 "R9" H 5270 2796 50  0000 L CNN
 F 1 "10K" H 5270 2705 50  0000 L CNN
-F 2 "" V 5130 2750 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 2750 50  0001 C CNN
 F 3 "~" H 5200 2750 50  0001 C CNN
 	1    5200 2750
 	1    0    0    -1  
@@ -148,16 +148,14 @@ Wire Wire Line
 Connection ~ 5700 3000
 Wire Wire Line
 	5700 3000 5700 2800
-Text Label 4750 2600 0    49   ~ 0
-ToolEnable
 Wire Wire Line
 	5200 2600 4750 2600
 Connection ~ 5200 2600
 $Comp
-L Connector_Generic:Conn_01x03 J?
+L Connector_Generic:Conn_01x03 J4
 U 1 1 60006F53
 P 7750 1750
-F 0 "J?" H 7830 1792 50  0000 L CNN
+F 0 "J4" H 7830 1792 50  0000 L CNN
 F 1 "Conn_01x03" H 7830 1701 50  0000 L CNN
 F 2 "" H 7750 1750 50  0001 C CNN
 F 3 "~" H 7750 1750 50  0001 C CNN
@@ -185,10 +183,10 @@ Wire Wire Line
 Wire Wire Line
 	7350 1750 7550 1750
 $Comp
-L Diode:1N4148 D?
+L Diode:1N4148 D2
 U 1 1 60009065
 P 5350 1800
-F 0 "D?" V 5300 1750 50  0000 R CNN
+F 0 "D2" V 5300 1750 50  0000 R CNN
 F 1 "1N4148" V 5400 1750 50  0000 R CNN
 F 2 "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal" H 5350 1625 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf" H 5350 1800 50  0001 C CNN
@@ -216,10 +214,10 @@ Wire Notes Line
 Text Notes 600  2500 0    98   ~ 0
 Tool On Input
 $Comp
-L ExtraParts:VOM617A U?
+L ExtraParts:VOM617A U4
 U 1 1 6003FB1A
 P 2000 3300
-F 0 "U?" H 2000 3713 49  0000 C CNN
+F 0 "U4" H 2000 3713 49  0000 C CNN
 F 1 "VOM617A" H 2000 3623 49  0000 C CNN
 F 2 "" H 2000 3300 49  0001 C CNN
 F 3 "https://www.vishay.com/docs/83446/vom617a.pdf" H 2000 3300 49  0001 C CNN
@@ -227,21 +225,21 @@ F 3 "https://www.vishay.com/docs/83446/vom617a.pdf" H 2000 3300 49  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R11
 U 1 1 60040FCE
 P 1250 3150
-F 0 "R?" V 1043 3150 50  0000 C CNN
+F 0 "R11" V 1043 3150 50  0000 C CNN
 F 1 "470R" V 1134 3150 50  0000 C CNN
-F 2 "" V 1180 3150 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1180 3150 50  0001 C CNN
 F 3 "~" H 1250 3150 50  0001 C CNN
 	1    1250 3150
 	0    1    1    0   
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J5
 U 1 1 600418EE
 P 650 3500
-F 0 "J?" H 568 3175 50  0000 C CNN
+F 0 "J5" H 568 3175 50  0000 C CNN
 F 1 "Conn_01x02" H 568 3266 50  0000 C CNN
 F 2 "" H 650 3500 50  0001 C CNN
 F 3 "~" H 650 3500 50  0001 C CNN
@@ -272,12 +270,12 @@ Wire Wire Line
 Wire Wire Line
 	2600 3500 2600 3600
 $Comp
-L Device:R R?
+L Device:R R10
 U 1 1 60048EFA
 P 2650 2900
-F 0 "R?" H 2720 2946 50  0000 L CNN
+F 0 "R10" H 2720 2946 50  0000 L CNN
 F 1 "10K" H 2720 2855 50  0000 L CNN
-F 2 "" V 2580 2900 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 2580 2900 50  0001 C CNN
 F 3 "~" H 2650 2900 50  0001 C CNN
 	1    2650 2900
 	1    0    0    -1  
@@ -299,8 +297,6 @@ Wire Wire Line
 	2650 3050 2650 3150
 Wire Wire Line
 	2650 3150 2450 3150
-Text Label 2800 3150 0    49   ~ 0
-~ToolOn
 Wire Wire Line
 	2650 3150 3050 3150
 Connection ~ 2650 3150
@@ -315,32 +311,32 @@ Wire Notes Line
 Text Notes 600  5050 0    98   ~ 0
 Pullups
 $Comp
-L Device:R R?
+L Device:R R12
 U 1 1 600D6942
 P 750 5550
-F 0 "R?" H 820 5596 50  0000 L CNN
+F 0 "R12" H 820 5596 50  0000 L CNN
 F 1 "10K" H 820 5505 50  0000 L CNN
-F 2 "" V 680 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 680 5550 50  0001 C CNN
 F 3 "~" H 750 5550 50  0001 C CNN
 	1    750  5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R?
+L Device:R R13
 U 1 1 600D76CA
 P 1050 5550
-F 0 "R?" H 1120 5596 50  0000 L CNN
+F 0 "R13" H 1120 5596 50  0000 L CNN
 F 1 "10K" H 1120 5505 50  0000 L CNN
-F 2 "" V 980 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 980 5550 50  0001 C CNN
 F 3 "~" H 1050 5550 50  0001 C CNN
 	1    1050 5550
 	1    0    0    -1  
 $EndComp
 $Comp
-L power:+3.3V #PWR?
+L power:+3.3V #PWR01
 U 1 1 600D7C56
 P 1050 5300
-F 0 "#PWR?" H 1050 5150 50  0001 C CNN
+F 0 "#PWR01" H 1050 5150 50  0001 C CNN
 F 1 "+3.3V" H 1065 5473 50  0000 C CNN
 F 2 "" H 1050 5300 50  0001 C CNN
 F 3 "" H 1050 5300 50  0001 C CNN
@@ -360,12 +356,12 @@ Wire Wire Line
 Wire Wire Line
 	1050 5400 1050 5350
 $Comp
-L Device:R R?
+L Device:R R14
 U 1 1 600F2ACB
 P 1350 5550
-F 0 "R?" H 1420 5596 50  0000 L CNN
+F 0 "R14" H 1420 5596 50  0000 L CNN
 F 1 "10K" H 1420 5505 50  0000 L CNN
-F 2 "" V 1280 5550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 1280 5550 50  0001 C CNN
 F 3 "~" H 1350 5550 50  0001 C CNN
 	1    1350 5550
 	1    0    0    -1  
@@ -383,4 +379,8 @@ Wire Wire Line
 	750  5350 1050 5350
 Wire Wire Line
 	1050 5350 1050 5300
+Text HLabel 4750 2600 0    49   Input ~ 0
+ToolEnable
+Text HLabel 3050 3150 2    49   Input ~ 0
+~ToolOn
 $EndSCHEMATC
