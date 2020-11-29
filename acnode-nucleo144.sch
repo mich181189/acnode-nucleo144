@@ -724,4 +724,8 @@ Wire Wire Line
 	2100 2850 2800 2850
 Text Label 2400 2850 2    49   ~ 0
 ~Reset
+Wire Wire Line
+	9850 2950 9300 2950
+Text Label 9300 2950 0    49   ~ 0
+~ToolOn
 $EndSCHEMATC

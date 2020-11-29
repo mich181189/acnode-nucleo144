@@ -21,8 +21,8 @@ AR Path="/5FDB67B7" Ref="D?"  Part="1"
 AR Path="/5FDAF572/5FDB67B7" Ref="D1"  Part="1" 
 F 0 "D1" V 4096 820 50  0000 R CNN
 F 1 "LED_ABRG" V 4005 820 50  0000 R CNN
-F 2 "" H 4050 1150 50  0001 C CNN
-F 3 "~" H 4050 1150 50  0001 C CNN
+F 2 "ExtraParts:Wurth_3528_LED" H 4050 1150 50  0001 C CNN
+F 3 "https://www.we-online.de/katalog/datasheet/150141M173100.pdf" H 4050 1150 50  0001 C CNN
 	1    4050 1150
 	0    -1   -1   0   
 $EndComp

@@ -154,34 +154,14 @@ Connection ~ 5200 2600
 $Comp
 L Connector_Generic:Conn_01x03 J4
 U 1 1 60006F53
-P 7750 1750
-F 0 "J4" H 7830 1792 50  0000 L CNN
-F 1 "Conn_01x03" H 7830 1701 50  0000 L CNN
-F 2 "" H 7750 1750 50  0001 C CNN
-F 3 "~" H 7750 1750 50  0001 C CNN
-	1    7750 1750
-	1    0    0    -1  
+P 6100 900
+F 0 "J4" V 6064 1080 50  0000 L CNN
+F 1 "Conn_01x03" V 5973 1080 50  0000 L CNN
+F 2 "ExtraParts:Connector-3.81mm-3pin" H 6100 900 50  0001 C CNN
+F 3 "~" H 6100 900 50  0001 C CNN
+	1    6100 900 
+	0    1    -1   0   
 $EndComp
-Wire Wire Line
-	6100 2100 7350 2100
-Wire Wire Line
-	7350 2100 7350 1850
-Wire Wire Line
-	7350 1850 7550 1850
-Wire Wire Line
-	7550 1650 7550 1050
-Wire Wire Line
-	7550 1050 6000 1050
-Wire Wire Line
-	6000 1050 6000 1500
-Wire Wire Line
-	6200 1500 6200 1200
-Wire Wire Line
-	6200 1200 7350 1200
-Wire Wire Line
-	7350 1200 7350 1750
-Wire Wire Line
-	7350 1750 7550 1750
 $Comp
 L Diode:1N4148 D2
 U 1 1 60009065
@@ -219,7 +199,7 @@ U 1 1 6003FB1A
 P 2000 3300
 F 0 "U4" H 2000 3713 49  0000 C CNN
 F 1 "VOM617A" H 2000 3623 49  0000 C CNN
-F 2 "" H 2000 3300 49  0001 C CNN
+F 2 "ExtraParts:VOM617A-4SOP" H 2000 3300 49  0001 C CNN
 F 3 "https://www.vishay.com/docs/83446/vom617a.pdf" H 2000 3300 49  0001 C CNN
 	1    2000 3300
 	1    0    0    -1  
@@ -238,13 +218,13 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_01x02 J5
 U 1 1 600418EE
-P 650 3500
-F 0 "J5" H 568 3175 50  0000 C CNN
-F 1 "Conn_01x02" H 568 3266 50  0000 C CNN
-F 2 "" H 650 3500 50  0001 C CNN
-F 3 "~" H 650 3500 50  0001 C CNN
-	1    650  3500
-	-1   0    0    1   
+P 650 3400
+F 0 "J5" H 568 3617 50  0000 C CNN
+F 1 "Conn_01x02" H 568 3526 50  0000 C CNN
+F 2 "ExtraParts:Connector-3.81mm-2pin" H 650 3400 50  0001 C CNN
+F 3 "~" H 650 3400 50  0001 C CNN
+	1    650  3400
+	-1   0    0    -1  
 $EndComp
 Wire Wire Line
 	850  3500 1550 3500
@@ -383,4 +363,24 @@ Text HLabel 4750 2600 0    49   Input ~ 0
 ToolEnable
 Text HLabel 3050 3150 2    49   Input ~ 0
 ~ToolOn
+Wire Wire Line
+	6000 1100 6000 1500
+Wire Wire Line
+	6200 1500 6200 1100
+Wire Wire Line
+	6100 1100 6100 1400
+Wire Wire Line
+	6100 1400 7200 1400
+Wire Wire Line
+	7200 1400 7200 2350
+Wire Wire Line
+	7200 2350 6100 2350
+Wire Wire Line
+	6100 2350 6100 2100
+Text GLabel 750  6050 3    49   Input ~ 0
+i2c_SCL
+Text GLabel 1050 6050 3    49   Input ~ 0
+i2c_SDA
+Text GLabel 1350 6050 3    49   Input ~ 0
+BigButton
 $EndSCHEMATC
