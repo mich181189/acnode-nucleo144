@@ -48,3 +48,7 @@ Nucleo-144 boards do vary a bit. This board is intended to work with the followi
 | NUCLEO-H743ZI2 | Arm Cortex M7 with 2MB Flash, 1MB RAM, L1 Cache, running at up to 480MHz | £26.21 | [https://uk.rs-online.com/web/p/microcontroller-development-tools/1939787/](RS 193-9787) |
 | NUCLEO-F767ZI | Arm Cortex M7 with 2MB Flash, 512KB RAM, L1 Cache, running at up to 216MHz | £22.38 | [https://uk.rs-online.com/web/p/microcontroller-development-tools/1231052/](RS 123-1052) |
 | NUCLEO-F756ZG | Arm Cortex M7 with 1MB Flash, 320KB RAM, L1 Cache, HW Crypto, running at up to 216MHz | £22.31 | [https://uk.rs-online.com/web/p/microcontroller-development-tools/1750680/](RS 175-0680) |
+
+# TODO
+* Exit Button Support
+* Check Pinouts
