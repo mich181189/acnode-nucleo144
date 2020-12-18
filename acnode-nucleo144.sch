@@ -3,7 +3,7 @@ EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 4
+Sheet 1 5
 Title "ACNode Nucleo-144 Overlay"
 Date "2020-11-28"
 Rev "1"
@@ -232,119 +232,10 @@ Text Label 3950 6850 1    49   ~ 0
 LED_Blue_Cathode
 Text Notes 3400 6050 0    79   ~ 0
 Legacy 8P8C Connector
-$Comp
-L Memory_Flash:W25Q32JVSS U3
-U 1 1 5FD27D8E
-P 4400 5050
-F 0 "U3" H 4150 5400 50  0000 C CNN
-F 1 "W25Q32JVSS" H 4050 4650 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_5.23x5.23mm_P1.27mm" H 4400 5050 50  0001 C CNN
-F 3 "http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf" H 4400 5050 50  0001 C CNN
-	1    4400 5050
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR0108
-U 1 1 5FD2EDFB
-P 4400 5600
-F 0 "#PWR0108" H 4400 5350 50  0001 C CNN
-F 1 "GND" H 4405 5427 50  0000 C CNN
-F 2 "" H 4400 5600 50  0001 C CNN
-F 3 "" H 4400 5600 50  0001 C CNN
-	1    4400 5600
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	4400 4650 4400 4450
-Wire Wire Line
-	4400 5600 4400 5450
-$Comp
-L Device:C C2
-U 1 1 5FD31B13
-P 4650 4450
-F 0 "C2" V 4500 4450 50  0000 C CNN
-F 1 "100nF" V 4800 4450 50  0000 C CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 4688 4300 50  0001 C CNN
-F 3 "~" H 4650 4450 50  0001 C CNN
-	1    4650 4450
-	0    1    1    0   
-$EndComp
-Wire Wire Line
-	4500 4450 4400 4450
-Connection ~ 4400 4450
-Wire Wire Line
-	4400 4450 4400 4400
-Wire Wire Line
-	4800 4450 4900 4450
-$Comp
-L power:+3.3V #PWR0110
-U 1 1 5FD34D1D
-P 4400 4400
-F 0 "#PWR0110" H 4400 4250 50  0001 C CNN
-F 1 "+3.3V" H 4415 4573 50  0000 C CNN
-F 2 "" H 4400 4400 50  0001 C CNN
-F 3 "" H 4400 4400 50  0001 C CNN
-	1    4400 4400
-	1    0    0    -1  
-$EndComp
-Text Label 3300 4950 0    59   ~ 0
-SPIFlash_CS
-Wire Wire Line
-	3900 4950 3850 4950
-Wire Wire Line
-	3900 5150 3300 5150
-Text Label 3300 5150 0    59   ~ 0
-SPI_Clk
-Text Label 4950 4850 0    59   ~ 0
-SPI_MOSI
-Text Label 4950 4950 0    59   ~ 0
-SPI_MISO
-Wire Wire Line
-	4900 4500 4900 4450
 Text Notes 3300 4050 0    79   ~ 0
 SPI Flash
-Wire Wire Line
-	4900 4850 5350 4850
-Wire Wire Line
-	4900 4950 5350 4950
-Wire Wire Line
-	4900 5150 5400 5150
-Wire Wire Line
-	5400 5150 5400 4650
-Wire Wire Line
-	5400 4650 4400 4650
-Connection ~ 4400 4650
-Wire Wire Line
-	4900 5250 5400 5250
-Wire Wire Line
-	5400 5250 5400 5150
-Connection ~ 5400 5150
 Wire Notes Line
 	5500 3900 3250 3900
-Wire Notes Line
-	3250 5900 5500 5900
-$Comp
-L Device:R R2
-U 1 1 5FDA2BE7
-P 3850 4700
-F 0 "R2" H 3700 4750 50  0000 L CNN
-F 1 "10k" H 3650 4650 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" V 3780 4700 50  0001 C CNN
-F 3 "~" H 3850 4700 50  0001 C CNN
-	1    3850 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	3850 4950 3850 4850
-Connection ~ 3850 4950
-Wire Wire Line
-	3850 4950 3300 4950
-Wire Wire Line
-	3850 4550 3850 4450
-Wire Wire Line
-	3850 4450 4400 4450
-Text Notes 3350 4150 0    49   ~ 0
-Most SOIC-8 SPI Flash should fit
 $Comp
 L ExtraParts:ISL8489EIBZ U1
 U 1 1 5FC1CEB5
@@ -726,10 +617,10 @@ Wire Wire Line
 Wire Wire Line
 	7050 700  7050 750 
 $Comp
-L power:GND #PWR?
+L power:GND #PWR0108
 U 1 1 6036D39A
 P 7250 700
-F 0 "#PWR?" H 7250 450 50  0001 C CNN
+F 0 "#PWR0108" H 7250 450 50  0001 C CNN
 F 1 "GND" H 7255 527 50  0000 C CNN
 F 2 "" H 7250 700 50  0001 C CNN
 F 3 "" H 7250 700 50  0001 C CNN
@@ -738,24 +629,41 @@ F 3 "" H 7250 700 50  0001 C CNN
 $EndComp
 $Comp
 L power:GND #PWR0109
-U 1 1 5FD2F252
-P 4900 4500
-F 0 "#PWR0109" H 4900 4250 50  0001 C CNN
-F 1 "GND" H 5000 4500 50  0000 C CNN
-F 2 "" H 4900 4500 50  0001 C CNN
-F 3 "" H 4900 4500 50  0001 C CNN
-	1    4900 4500
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:GND #PWR?
 U 1 1 6037908D
 P 4950 7400
-F 0 "#PWR?" H 4950 7150 50  0001 C CNN
+F 0 "#PWR0109" H 4950 7150 50  0001 C CNN
 F 1 "GND" H 4955 7227 50  0000 C CNN
 F 2 "" H 4950 7400 50  0001 C CNN
 F 3 "" H 4950 7400 50  0001 C CNN
 	1    4950 7400
 	1    0    0    -1  
 $EndComp
+$Sheet
+S 3400 4200 750  550 
+U 603F3E51
+F0 "SPIFlash" 49
+F1 "SPIFlash.sch" 49
+F2 "SPIFlash_CS" I R 4150 4300 49 
+F3 "SPI_Clk" I R 4150 4450 49 
+F4 "SPI_MOSI" I R 4150 4550 49 
+F5 "SPI_MISO" I R 4150 4650 49 
+$EndSheet
+Wire Notes Line
+	3250 5850 5500 5850
+Text Label 4700 4300 2    49   ~ 0
+SPIFlash_CS
+Text Label 4700 4450 2    49   ~ 0
+SPI_Clk
+Text Label 4700 4550 2    49   ~ 0
+SPI_MOSI
+Text Label 4700 4650 2    49   ~ 0
+SPI_MISO
+Wire Wire Line
+	4150 4300 4700 4300
+Wire Wire Line
+	4700 4450 4150 4450
+Wire Wire Line
+	4150 4550 4700 4550
+Wire Wire Line
+	4700 4650 4150 4650
 $EndSCHEMATC
