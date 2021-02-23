@@ -51,4 +51,4 @@ Nucleo-144 boards do vary a bit. This board is intended to work with the followi
 
 # TODO
 * Exit Button Support
-* Check Pinouts
+* LED is a bit bright!
