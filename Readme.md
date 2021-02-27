@@ -51,4 +51,5 @@ Nucleo-144 boards do vary a bit. This board is intended to work with the followi
 
 # TODO
 * Exit Button Support
-* LED is a bit bright!
+* A jumper on the ISL3176 ~RE line would allow a single	board to support 5V and 12V readers
+* Footprints for 3.81mm	connectors are too tight - holes too small
